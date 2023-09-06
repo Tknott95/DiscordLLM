@@ -7,7 +7,8 @@ pkgs=(
   "torch torchvision torchaudio"
   "bitsandbytes" 
   "gradio"
-   "accelerate"
+  "accelerate"
+  # "accelerate>=0.20.3"
   "transformers==4.30"
   "git+https://github.com/huggingface/accelerate"
   # if you run into issues you can run these after making sure your device is cuda enabled. 
