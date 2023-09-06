@@ -13,7 +13,7 @@ This DiscordBot uses StableBeluga7B for this example and does not remember histo
 **HUGGING FACE OPEN SOURCE LLM LEADERBOARDS**
 https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 
-**MODEL QUNATIZATION**
+**MODEL QUANTIZATION**
 https://huggingface.co/docs/transformers/main_classes/quantization
 
 
