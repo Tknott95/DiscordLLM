@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# CPU INSTALL ONLY
 pkgs=(
   "huggingface_hub" 
   "python-dotenv" "openai"
