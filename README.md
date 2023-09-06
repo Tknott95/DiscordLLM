@@ -9,5 +9,9 @@ This DiscordBot uses StableBeluga7B for this example and does not remember histo
 ##### REF: https://huggingface.co/spaces/Sentdex/StableBeluga-7B-Chat/blob/main/app.py
 
 
+
+**HUGGING FACE OPEN SOURCE LLM LEADERBOARDS**
+https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+
 **MODEL QUNATIZATION**
 https://huggingface.co/docs/transformers/main_classes/quantization
