@@ -2,9 +2,10 @@
 # DiscordLLM
 
 
-### LEARNED about model quantization from sentdex 
-### REF:
 
+
+**LEARNED about model quantization from sentdex(code is only on huggingface)** 
+##### REF: https://huggingface.co/spaces/Sentdex/StableBeluga-7B-Chat/blob/main/app.py
 
 
 **MODEL QUNATIZATION**
