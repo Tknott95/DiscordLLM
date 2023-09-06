@@ -15,3 +15,32 @@ https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 
 **MODEL QUNATIZATION**
 https://huggingface.co/docs/transformers/main_classes/quantization
+
+
+
+
+
+**TURN INTO A TERMINAL BOT**
+```
+def main():
+  print("\n\n  LLMAgents init()\n")
+
+  _chain = Chain()
+  isAsking = True
+  # _chain.chat("What color is the sun?", _chain.PROMPTS[0])
+
+  while(isAsking):
+    _input = input(clr.bar + "\n  Want to know anything?\n :  " + clr.clear)
+    if(_input == "no"):
+      isAsking = False
+      print(clr.bold + "\n  Bot is going back to hibernation." + clr.clear) 
+      break
+    
+    _chain.chat(_input, _chain.PROMPTS[0])
+
+
+
+if __name__ == "__main__":
+  main()
+
+```
