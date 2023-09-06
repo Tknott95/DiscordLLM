@@ -9,7 +9,6 @@ pkgs=(
   "gradio"
   "accelerate>=0.20.3"
   "transformers==4.30"
-  "flask"
   # transformers needs to be to be 4.30 for now
   # "git+https://github.com/huggingface/transformers"
 )  
