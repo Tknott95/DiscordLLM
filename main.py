@@ -32,22 +32,22 @@ async def on_message(message):
 
     if message.content.startswith('!ask'):
         match = re.search(r"!ask (.*)", message.content)
-        x = _chain.chat(match, _chain.PROMPTS[1])
+        x = _chain.chat(match.group(1), _chain.PROMPTS[1])
         await message.channel.send(x)
     
     if message.content.startswith('!poem'):
         match = re.search(r"!poem (.*)", message.content)
-        x = _chain.chat(match, _chain.PROMPTS[3])
+        x = _chain.chat(match.group(1), _chain.PROMPTS[3])
         await message.channel.send(x)
     
     if message.content.startswith('!psyop'):
         match = re.search(r"!psyop (.*)", message.content)
-        x = _chain.chat(match, _chain.PROMPTS[4])
+        x = _chain.chat(match.group(1), _chain.PROMPTS[4])
         await message.channel.send(x)
 
     if message.content.startswith('!argue'):
         match = re.search(r"!argue (.*)", message.content)
-        x = _chain.chat(match, _chain.PROMPTS[5])
+        x = _chain.chat(match.group(1), _chain.PROMPTS[5])
         await message.channel.send(x)
 
     if message.content.startswith('!sup bbz'):
